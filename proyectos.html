@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Roy Gutierrez</title>
+    <link rel="stylesheet" href="css/proyecto.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
+    <link rel="shortcut icon" href="img/icono.ico" />
+    <!--<link rel="stylesheet" href="css/body.css" type="text/css" />-->
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <h3><a href="index.html"><span>Roy</span> Gutierrez</a></h3>
+      </div>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobremi.html">Sobre mi</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="tienda/index.html">Tienda</a>
+        <a href="ingresar.html">Ingresar</a>
+      </nav>
+    </div>
+    <div id="container">
+      <h1>Mis Proyectos</h1>
+      <p class="principal">
+        Es esta pagina estan todos mis proyectos del salon
+      </p>
+      <div id="mysql">
+        <h2>Registro de Notas en MySQL</h2>
+        <p class="parrafo-projecto">En este proyecto los datos ingresados se almacenaran en una base datos MySQL</p>
+      <fieldset class="padre">
+        <legend>Registro de Notas</legend>
+        <form action="registro.php" method="POST">
+          <label for="name">Nombres</label>
+          <input type="text" name="nom" id="name" placeholder="Nombres" class="form" required/>
+          <br />
+          <label for="lastname">Apellidos</label>
+          <input type="text" name="apel" id="lastname" placeholder="Apellidos" class="form" required/>
+          <br />
+          <label for="dni">DNI</label>
+          <input type="text" name="dni" id="dni" placeholder="DNI" class="form" required/>
+          <br />
+          <label for="direccion">Direccion</label>
+          <input type="text" name="dire" id="direccion" placeholder="Direccion" class="form" required/>
+          <br />
+          <label for="celular">Celular</label>
+          <input type="tel" name="celu" id="celular" placeholder="Celular" class="form" required/>
+          <br />
+          <label for="correo">Correo Electrónico</label>
+          <input type="email" name="core" id="correo" placeholder="Correo Electrónico" class="form" required/>
+          <br />
+          <label for="careers">Carrera Profesional</label>
+          <select name="car"  id="careers" class="form">
+            <option value="Administracion de Redes">
+              Administracion de Redes
+            </option>
+            <option value="Administracion de Empresas">
+              Administracion de Empresas
+            </option>
+            <option value="Electricidad Industrial">
+              Electricidad Industrial
+            </option>
+            <option value="Mecatrónica automotriz">
+              Mecatrónica automotriz
+            </option>
+          </select>
+          <br />
+          <label for="montop">Monto Prospecto</label>
+          <input type="text" id="montop" name="montop" placeholder="Monto Prospecto" class="form" required/>
+          <br />
+          <label for="montoa">Monto Admision</label>
+          <input type="text" id="montoa" name="montoa" placeholder="Monto Admision" class="form" required/>
+          <br />
+          <input type="checkbox" id="check" value="" required>
+          <label for="check">Aceptar si los datos son correctos</label>
+          <br>
+          <button type="submit" class="enviar">Registrar</button>
+        </form>
+      </fieldset>
+      </div>
+      <!--BLOQUE DE CONSULTAS-->
+      <div id="mysql">
+        <h2>Consulta de Notas en MySQL</h2>
+        <p class="parrafo-projecto">En este proyecto los datos ingresados se almacenaran en una base datos MySQL</p>
+      <fieldset class="padre">
+        <legend>Consulta de Notas</legend>
+        <form action="consulta.php" method="POST">
+          <label for="dni">DNI</label>
+          <input type="text" name="dni" placeholder="DNI" class="form" required/>
+          <br />
+          <label for="corre">Apellidos</label>
+          <input type="text" id="corre" name="cori" placeholder="Correo Electrónico" class="form"/>
+          <br>
+          <input type="checkbox" id="checked" value="" required>
+          <label for="checked">Aceptar si los datos son correctos</label>
+          <br />
+          <button type="submit" class="enviar">Consultar</button>
+          <button type="reset" class="enviar">Limpiar</button>
+          <button class="enviar" type="submit"><a href="total.php" style="text-decoration: none; color: #f50057;">Total de Inscritos</a></button>
+        </form>
+      </fieldset>
+      </div>
+      </div>
+    </div>
+    <div id="footer-container">
+      <footer>
+        <div class="correo">
+          <p>Autor: Roy Gutierrez Urbano</p>
+          <p><a href="mailto:royggutierrez@gmail.com">royggutierrez@gmail.com</a></p>
+        </div>
+        <div class="redes">
+          <a href="https://www.facebook.com/royggutierrez/" class="facebook" target="
+          ">
+            <img src="img/rs/facebook.svg" alt="Facebook" width="35px">
+          </a>
+          <a href="https://twitter.com/royggutierrez" class="twitter" target="_blank">
+            <img src="img/rs/twitter.svg" alt="Twitter" width="35px">
+          </a>
+          <a href="https://github.com/royggutierrez" class="github" target="_blank">
+            <img src="img/rs/github.svg" alt="GitHub" width="35px">
+          </a>
+          <a href="https://www.instagram.com/royggutierrez/" class="instagram" target="_blank">
+            <img src="img/rs/instagram.svg" alt="Instagram" width="35px">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

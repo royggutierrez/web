@@ -1,0 +1,91 @@
+
+#header {
+  padding: 20px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header #logo {
+  font-style: italic;
+  font-size: 20px;
+}
+#header #logo h3 a {
+  text-decoration: none;
+  color: #000;
+}
+#header #logo span {
+  color: #564fcc;
+}
+#header nav {
+  color: #000;
+}
+#header nav a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#header nav a:hover {
+  opacity: 0.9;
+  background-color: #564fcc;
+  cursor: pointer;
+  color: white;
+}
+#container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  height: 575px;
+}
+#bg-container {
+  width: 50%;
+}
+#bg-container svg {
+  width: 100%;
+  height: 90%;
+}
+
+#content-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#content-container h1 {
+  color: #564fcc;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 0.9em;
+  margin-bottom: 30px;
+}
+#content-container p {
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+#content-container button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #6c63ff;
+  padding: 16px 0px;
+  border-radius: 40px;
+  font-size: 16px;
+  width: 160px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#content-container button:hover {
+  opacity: 0.9;
+}

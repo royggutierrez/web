@@ -1,0 +1,83 @@
+#container-habilidades {
+  overflow: hidden;
+  display: contents;
+  /*flex-direction: row;*/
+  justify-content: center;
+  padding-top: 20px;
+  height: 575px;
+  text-align: justify;
+}
+#container-habilidades h1 {
+  color: #564fcc;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 0.9em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#container-habilidades .principal {
+  line-height: 1.8em;
+  font-weight: 500;
+  text-align: center;
+}
+#habilidades h2 {
+  color: #564fcc;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 0.9em;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#habilidades p {
+  font-size: 15px;
+  line-height: 0.9em;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#habilidades .padre {
+  width: 700px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#habilidades .padre form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#habilidades .padre form .form {
+  width: 300px;
+  padding: 3px;
+  font-size: 15px;
+  margin: 3px 0 10px 15px;
+  border-radius: 10px;
+}
+#habilidades .padre .hijo {
+  width: 550px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+#habilidades .padre .enviar {
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  background: transparent;
+  /*background-color: #6c63ff;*/
+  padding: 10px;
+  border-radius: 40px;
+  font-size: 22px;
+  width: 160px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#habilidades .enviar:hover {
+  opacity: 0.9;
+  background: #6c63ff;
+  color: #fff;
+}
